@@ -1,0 +1,57 @@
+author = Tandel.K;
+onLoadName = "Air Superiority CTI";
+loadScreen = "Air.jpg"
+onLoadMission = "Capture the island using Air Attack vehicles. NATO vs CSAT mission. Capture 75% of the objectives to drain enemies tickets (1000 tickets)." 
+overviewPicture= "Air.jpg";
+
+showGroupIndicator = 1;
+disabledAI =true;
+
+respawn=3;
+respawnOnStart = -1;
+respawnDelay=30;
+respawnDialog=1;
+respawnTemplatesWest[] = {"Tickets","Counter","Wave","MenuInventory","MenuPosition"};
+respawnTemplatesEast[] = {"Tickets","Counter","Wave","MenuInventory","MenuPosition"};
+Tickets=call BIS_fnc_respawnTickets;
+
+class CfgRespawnInventory
+{
+	class WEST1
+	{
+		displayName = "Pilot"; // Name visible in the menu
+		//icon = "\A3\ui_f\data\igui\cfg\weaponicons\GL_ca.paa"; // Icon displayed next to the name
+		// Condition must return true in order for the loadout to be displayed in the menu.
+		// Evaluated when the menu is opened.
+		show = "side group _this == west";
+		linkedItems[] = {
+			"V_Rangemaster_belt",
+			"H_PilotHelmetFighter_B",
+			"ItemGPS",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"ItemRadio"
+		};
+		uniformClass = "U_B_PilotCoveralls";
+	};	
+	class EAST1
+	{
+		displayName = "Pilot"; // Name visible in the menu
+		//icon = "\A3\ui_f\data\igui\cfg\weaponicons\GL_ca.paa"; // Icon displayed next to the name
+		// Condition must return true in order for the loadout to be displayed in the menu.
+		// Evaluated when the menu is opened.
+		show = "side group _this == east";
+
+			linkedItems[] = {
+			"V_Rangemaster_belt",
+			"H_PilotHelmetFighter_O",
+			"ItemGPS",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"ItemRadio"
+		};
+		uniformClass = "U_O_PilotCoveralls";
+	};
+};

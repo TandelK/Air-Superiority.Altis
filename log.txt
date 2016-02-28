@@ -1,0 +1,38 @@
+Air Superiority by Tandel.K
+
+Logs
+
+Version 0.5  (Intial Release)
+Base = AAC Airfield (Blufor)
+       Salt Lake (Opfor)
+Sector Control working 
+Tickets - 1000 
+Time - 1hr
+Re-spawn Vehicle
+Vehicle Locks
+
+
+Version 0.6 
+Added Re-spawn for players
+removed locked jets and helicopters 
+Added Locked Jets and Helicopters to respective players. Now they can only enter the vehicle which they have choosen from starting.
+re-spawn delay =10
+
+
+Version 0.7
+Re-spawn Tickets and Bleed tickets bugs fixed.
+
+Version 0.8 
+New places added.
+
+Version 1.0
+Spawn with no weapons and respawn with same loadout
+Added Wave Spawn type. Will run 30 sec counter every time in match and spawn together to balance team spawning
+Fixed Sector Control and Lockable units
+Fixed Enemy Base Perimeter auto kill 10 Seconds
+Added Area protection near spawn area. This does not include the whole Base. Runway is still exposed . Only Spawn point is safe.
+
+
+Left to do: 
+Time Zone settings (via Parameters)
+Time Accleration settings (via Parameters)
