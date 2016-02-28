@@ -31,7 +31,8 @@ class CfgRespawnInventory
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
-			"ItemRadio"
+			"ItemRadio",
+			"NVGoggles"
 		};
 		uniformClass = "U_B_PilotCoveralls";
 	};	
@@ -50,7 +51,8 @@ class CfgRespawnInventory
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
-			"ItemRadio"
+			"ItemRadio",
+			"NVGoggles"
 		};
 		uniformClass = "U_O_PilotCoveralls";
 	};
