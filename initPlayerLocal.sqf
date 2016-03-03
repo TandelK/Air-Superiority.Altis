@@ -1,1 +1,1 @@
-execVM "Loadout.sqf";
+_null = [] execVM "misc\diary.sqf";

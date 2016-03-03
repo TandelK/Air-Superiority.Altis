@@ -32,7 +32,15 @@ Fixed Sector Control and Lockable units
 Fixed Enemy Base Perimeter auto kill 10 Seconds
 Added Area protection near spawn area. This does not include the whole Base. Runway is still exposed . Only Spawn point is safe.
 
+Version 1.1 
+Bug issues with Respawn on JIP
+Added TAW View Distance and NRE Earplugs
+Added Dairy for Credits 
+Removed all the vehicle locks currently making issue for JIP.
+Pilots spawn outside of there Helis and Jets
+Vehicle Respawn time changed to 30 seconds.
+
 
 Left to do: 
-Time Zone settings (via Parameters)
+Time settings (via Parameters)
 Time Accleration settings (via Parameters)
