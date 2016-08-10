@@ -5,7 +5,18 @@ waitUntil {!isNull player};
 player createDiarySubject ["changelog", "Change Log"];
 player createDiarySubject ["credits", "Credits"];
 
-
+player createDiaryRecord ["changelog",
+[
+"Air Superiority Version 1.2",
+"
+<br />- [ADDED] 3D Markers for Objectives
+<br />- [ADDED] Multiplayers Time parameters
+<br />- [ADDED] Intro Camera
+<br />- [ADDED] Lights for Night time
+<br />- [CHANGED] Intro Music 
+<br />- [FIXED] Music used to play everytime while someone respawned
+"
+]];
 
 player createDiaryRecord ["changelog",
 [
@@ -18,8 +29,7 @@ player createDiaryRecord ["changelog",
 <br />- [CHANGED] Removed Locked Vehicles to specific players.
 <br />- [CHANGED] Vehicle Respawn time changed to 30 Seconds from 10 Seconds
 <br />- [CHANGED] Pilots will spawn outside of Helicopter and Planes on starting.
-<br />- [CHANGED] UAVs adjusted to mitigate spontaneous explosion.
-<br />- [FIXED] Join in Progress was bugged and was spawning as Seagull. Fixed 
+<br />- [FIXED] Join in Progress was bugged and was spawning as Seagull.
 "
 ]];
 
